@@ -1,0 +1,113 @@
+.slogan{
+  height:90%;
+  width:100%;
+}
+.slogan>img{
+  width:101%;
+  margin-right: -0.48%;
+  background-size: cover;
+  display: block;
+  float:right;
+  justify-content: center;
+}
+@font-face {
+  font-family: font;
+  src: url(BLKCHCRY.ttf);
+}
+.slogan>#slogan{
+    position:absolute;
+    top:73%;
+    left:12%;
+    font-size:55px;
+    letter-spacing: 4px;
+    font-family:font;
+    font-weight: bolder;
+    text-shadow: 2px -2px 3px #09A46A;
+    text-transform: capitalize;
+    color:#ef0059;
+  }
+  .slogan>#slogan::before{
+    content: '';
+    display: inherit;
+    width: 40%;
+    margin: 10px auto;
+    border-top:  4px solid;
+  }
+  .slogan>#slogan::after{
+    content: '';
+    display: inherit;
+    width: 40%;
+    margin: 10px auto;
+    border-bottom:  4px solid;
+  }
+.content{
+  /* border:3px solid; */
+  /* height:70%; */
+  margin-top:13%;
+  margin-bottom:5%;
+  display: flex;
+  /* flex-direction: row; */
+  /* overflow-wrap:break-word; */
+}
+.content>div>img{
+  border-radius: 20px;
+}
+.content>.ilam{
+  width:23.2894%;
+  height:50%;
+  /* border:2px solid; */
+  border-radius: 15px;
+  margin-right: 2%;
+  margin-left:13%;
+  display: inline;
+  /* display: flex; */
+  /* float:left; */
+  position: relative;
+  box-shadow: 0px 4px 8px 5px #8b8585;
+}
+.content>.ilam>.text{
+  font-family:garamond;
+  font-size: 25;
+  text-align: center;
+  font-weight: bold;
+  padding: 3px 0px 5px 0px;
+}
+.content>.rara{
+  width:23.2894%;
+  height:50%;
+  /* border:2px solid; */
+  border-radius: 15px;
+  margin-right: 2%;
+  box-shadow: 0px 4px 8px 5px #8b8585;
+}
+.content>.rara>.text{
+  font-family:garamond;
+  font-size: 25;
+  text-align: center;
+  font-weight: bold;
+  padding: 3px 0px 5px 0px;
+}
+.content>.chitwan{
+  width:23.2894%;
+  height:50%;
+  /* border:2px solid; */
+  border-radius: 10px;
+  margin-right: 2%;
+  box-shadow: 0px 4px 8px 5px #8b8585;
+}
+.content>.chitwan>.text{
+  font-family:garamond;
+  font-size: 25;
+  font-weight: bold;
+  text-align: center;
+  padding: 3px 0px 5px 0px;
+}
+.content>.rara:hover{
+  transform: scale(1.1);
+}
+.content>.ilam:hover{
+  transform: scale(1.1);
+}
+.content>.chitwan:hover{
+  transform: scale(1.1);
+}

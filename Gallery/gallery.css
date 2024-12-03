@@ -1,0 +1,49 @@
+.ilam{
+	/* text-align:center; */
+	color:red;
+	font-size:23px;
+	font-weight:bold;
+	margin-top:2%;
+	text-align:center;
+}
+.chitwan{
+	color:red;
+	font-size:23px;
+	font-weight:bold;
+	margin-bottom:1%;
+	text-align:center;
+}
+.rara{
+	color:red;
+	font-size:23px;
+	font-weight:bold;
+	margin-bottom:1%;
+	text-align:center;
+}
+.gallery{
+	margin-top:1%;
+	margin-bottom:2%;
+	text-align:center;
+}
+.gallery img {
+	width:250px;
+	padding:5px;
+	filter:grayscale(100%);
+	transition:1s;
+}
+.gallery>a>img:hover{
+	filter:grayscale(0);
+	transform:scale(1.1);
+}
+a{
+	text-decoration:none;
+	display:inline-block;
+}
+.gallery a p{
+  text-decoration:none;
+  color:black;
+}
+a:hover{
+	background-color:grey;
+	color:black;
+}
